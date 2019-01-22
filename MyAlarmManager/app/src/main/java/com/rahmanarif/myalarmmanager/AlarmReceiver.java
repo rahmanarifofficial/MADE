@@ -43,7 +43,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 
         showToast(context, title, message);
 
-        //showAlarmNotification(context, title, message, notifId);
+        showAlarmNotification(context, title, message, notifId);
     }
 
     private void showToast(Context context, String title, String message) {
